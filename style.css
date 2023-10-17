@@ -1,0 +1,149 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+}
+
+.hero_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.hero_left {
+    margin-top: 120px;
+    width: 40%;
+}
+
+.hero_left p {
+    width: 70%;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero_left button {
+    background-color: skyblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 45px;
+    border: none;
+}
+
+.hero_right img {
+    width: 200px;
+    position: relative;
+    top: 12%;
+}
+
+.second_container {
+    background-image: url(/Assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.second_left,
+.second_mid,
+.second_right {
+    padding: 50px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.second_left h1,
+.second_mid h1,
+.second_right h1 {
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    color: skyblue;
+}
+
+.second_left h3,
+.second_mid h3,
+.second_right h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.third_container {
+    display: flex;
+    justify-content: center;
+}
+
+.third_mid {
+    margin-top: 40px;
+    padding: 60px;
+    text-align: center;
+}
+
+.third_mid button {
+    background-color: skyblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 45px;
+    border: none;
+
+}
+
+.third_mid p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fourth_container {
+    background-image: url(Assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth_top {
+    text-align: center;
+    color: white;
+}
+
+.fourth_bottom {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.fourth_bottom .one {
+
+    padding: 60px;
+    border: 1px dashed white;
+    margin-right: 20px;
+    color: white;
+}
+
+.fourth_top p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fourth_bottom .two {
+
+    padding: 60px;
+    border: 1px dashed white;
+    color: white;
+
+}
